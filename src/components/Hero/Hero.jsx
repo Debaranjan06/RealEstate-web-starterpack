@@ -18,8 +18,8 @@ const Hero = () => {
                 </div>
             
                 <div className="flexColStart hero-des">
-                    <span>Find of properties that suit you very easily</span>
-                    <span>Forget all difficulties in finding a residence for you</span>
+                    <span className='secondaryText'>Find of properties that suit you very easily</span>
+                    <span className='secondaryText'>Forget all difficulties in finding a residence for you</span>
                 </div>
                 
                 <div className="flexCenter search-bar">
@@ -28,7 +28,7 @@ const Hero = () => {
                 </div>
 
                 <div className="flexCenter stats">
-                    <div className="flexColStart stat">
+                    <div className="flexColCenter stat">
                         <span>
                             {/* <CountUp start={88000} end={90000} duration={3} separator=',' /> */}
                         </span>
